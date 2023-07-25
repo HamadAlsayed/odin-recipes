@@ -4,32 +4,33 @@ html, body {
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #1D5B79;
+    background-color: #2D2D2A;
 }
 
 .title {
-    background-color: #468B97;
-    padding: 5px;
+    display: inline-block;
     color: white;
     text-align: center;
+    margin-right: 20px;
 }
 
 .menu-bar {
     display: block;
-    background-color: #468B97;
-    height: 50px; width: 100%;
+    background-color: #C14953;
+    height: 70px; width: 100%;
     text-align: center;
-    padding: 15px 0px;
+    padding: 20px 0px;
+    padding-bottom: 36px;
 }
 
 .bar-button {
     font-size: 16px;
     display: inline-block;
-    background-color: #EF6262;
+    background-color: #D3938C;
     border-radius: 5px;
     color: white;
     text-decoration: none;
-    padding: 16px 20px;
+    padding: 16px 32px;
     margin: 0 auto;
 }
 
@@ -38,5 +39,9 @@ html, body {
 }
 
 .page-container {
-    outline: 3px solid red;
+    /* outline: 3px solid red; */
+    background-color: #4C4C47;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
 }
